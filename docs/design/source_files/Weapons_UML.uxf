@@ -1,0 +1,34 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>181</x><y>64</y><w>500</w><h>280</h></coordinates><panel_attributes>edu.monash.fit2099.engine
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>191</x><y>264</y><w>110</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+Item
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>341</x><y>444</y><w>110</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+GameWeaponItem
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>291</x><y>274</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>181</x><y>364</y><w>620</w><h>280</h></coordinates><panel_attributes>game
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>201</x><y>404</y><w>370</w><h>220</h></coordinates><panel_attributes>weapons
+--
+fg=#3c7a00
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>341</x><y>264</y><w>110</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+WeaponItem
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>211</x><y>526</y><w>140</w><h>30</h></coordinates><panel_attributes>YhormsGreatMachete
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>421</x><y>526</y><w>100</w><h>30</h></coordinates><panel_attributes>StormRuler
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>311</x><y>576</y><w>110</w><h>30</h></coordinates><panel_attributes>Broadsword
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>391</x><y>296</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>361</x><y>477</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>498</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>110;10;10;10;10;30</additional_attributes></element><element><id>Relation</id><coordinates><x>361</x><y>498</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;110;10;110;30</additional_attributes></element><element><id>UMLNote</id><coordinates><x>31</x><y>139</y><w>120</w><h>50</h></coordinates><panel_attributes>New classes are 
+shown in blue
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>31</x><y>219</y><w>120</w><h>60</h></coordinates><panel_attributes>New packages are
+shown in green
+bg=#3c7a00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>591</x><y>400</y><w>190</w><h>230</h></coordinates><panel_attributes>enums
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>631</x><y>520</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+Abilities
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>511</x><y>530</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>411</x><y>530</y><w>160</w><h>80</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>140;10;140;60;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>551</x><y>260</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+WeaponAction</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>441</x><y>260</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=1
+&lt; discerns</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>321</x><y>190</y><w>100</w><h>30</h></coordinates><panel_attributes>IntrinsicWeapon
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>551</x><y>190</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Weapon</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>411</x><y>200</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>140;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>421</x><y>200</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>191</x><y>120</y><w>100</w><h>30</h></coordinates><panel_attributes>Capabilities</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>141</y><w>60</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=1
+has &gt;</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>121</y><w>100</w><h>40</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Capable</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>131</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element></diagram>

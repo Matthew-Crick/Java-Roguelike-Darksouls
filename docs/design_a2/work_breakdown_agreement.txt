@@ -1,0 +1,49 @@
+ASSIGNMENT 2
+
+Collaboration tasks:
+
+Matthew and Joshua will work together on
+- Player, Estus Flask, Souls, Terrains, Enemies
+
+
+Individual tasks:
+
+Joshua will focus on
+- 1. Dying & Reset mechanism (Bonfire)
+Matthew will focus on
+- 2. Weapon: skills mechanism
+
+
+I Joshua Nung accept this WBA
+I Matthew Crick accept this WBA
+
+
+
+
+
+
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+--------------------INFO--------------------
+version 1.0
+
+next meeting
+- friday 
+
+--------------------WBA--------------------
+class diagrams
+- to be completed in conjunction differing approaches
+
+interaction diagrams
+- to be done individually upon completion of class diagrams where clear 
+- distintions can be made 
+
+design rationale
+- initially made simultaneously throughout development of class diagrams
+- individually updated during interaction diagrams phase 
+
+--------------------SIGNED--------------------
+I Matthew Crick accept this WBA
+I Joshua Nung accept this WBA

@@ -1,0 +1,32 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLNote</id><coordinates><x>54</x><y>150</y><w>150</w><h>50</h></coordinates><panel_attributes>New classes are 
+shown in blue
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>54</x><y>260</y><w>150</w><h>60</h></coordinates><panel_attributes>New packages are
+shown in green
+bg=#3c7a00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>223</x><y>121</y><w>580</w><h>220</h></coordinates><panel_attributes>edu.monash.fit2099.engine
+--
+
+bg=white
+fg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>243</x><y>281</y><w>120</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+Item</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>293</x><y>191</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+has
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>253</x><y>171</y><w>100</w><h>30</h></coordinates><panel_attributes>Capabilities</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>453</x><y>161</y><w>110</w><h>40</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Capable</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>343</x><y>171</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>313</x><y>311</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>453</x><y>291</y><w>100</w><h>30</h></coordinates><panel_attributes>Actions</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>353</x><y>291</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+gives
+m2=1</panel_attributes><additional_attributes>100;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>543</x><y>291</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..*
+stores
+m2=1</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>653</x><y>291</y><w>140</w><h>40</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+Action</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>223</x><y>361</y><w>570</w><h>160</h></coordinates><panel_attributes>game
+--
+
+bg=white
+fg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>393</x><y>461</y><w>100</w><h>30</h></coordinates><panel_attributes>TokenOfSoul
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>273</x><y>461</y><w>100</w><h>30</h></coordinates><panel_attributes>EstusFlask
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>513</x><y>461</y><w>100</w><h>30</h></coordinates><panel_attributes>CinderOfLord
+fg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>433</x><y>421</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>313</x><y>421</y><w>270</w><h>60</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>250;40;250;10;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>240</x><y>391</y><w>390</w><h>120</h></coordinates><panel_attributes>items
+--
+fg=#3c7a00</panel_attributes><additional_attributes></additional_attributes></element></diagram>
