@@ -1,2 +1,1 @@
-# designosouls
-A roguelike implementation of the game DarkSouls.
+# A roguelike implementation of the game DarkSouls.
